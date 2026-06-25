@@ -5,7 +5,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
 const API_BASE = import.meta.env.PROD
-  ? 'https://roadpulse-api.onrender.com'
+  ? 'https://roadbackend-krwk.onrender.com'
   : 'http://localhost:8000';
 
 const BANGALORE_LOCATIONS = [

@@ -12,7 +12,7 @@ import AccidentUpload from './components/AccidentUpload';
 import RouteChecker from './components/RouteChecker';
 
 const API_BASE = import.meta.env.PROD
-  ? 'https://roadpulse-api.onrender.com'
+  ? 'https://roadbackend-krwk.onrender.com'
   : 'http://localhost:8000';
 
 function App() {
